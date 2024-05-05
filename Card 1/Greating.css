@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+   
+}
+section{
+    height: 100vh;
+    width: 40%;
+    background-image: linear-gradient(120deg,black,rgb(52, 1, 67),rgba(7, 29, 34, 0.918),rgb(52, 1, 67),black);
+    z-index: -1;
+
+}
+#backbox{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+div>form>label{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-size: 30px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 2px;
+    outline: none;
+}
+::placeholder{
+    font-size: 15px;
+    padding: 15px;
+}
+button{
+    height: 60px;
+    width: 370px;
+    color: white;
+    background-color: rgb(11, 11, 40);
+    border-radius: 5px;
+}
+/* card Allinment */
+aside{
+    /* margin: -38% 20%; */
+    position: absolute;
+    top: 180px;
+    left: 330px;
+
+}
+
+
+/* First CArd */
+#Atm{
+    height: 220px;
+    width: 400px;
+    border-radius: 8px;
+    background-image: linear-gradient(135deg,rgb(20, 4, 126),rgb(32, 61, 142),rgb(87, 36, 101),rgb(106, 3, 135),rgb(71, 117, 255),rgb(32, 29, 29),rgb(31, 26, 26));
+ 
+    
+    
+}
+/* Inner card */
+#inner{
+    height: 40px;
+    width: 40px;
+    background-color: #fffcfc;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+#cardnumber{
+    text-align: center;
+    margin: 50px;
+    word-spacing: 10px;
+}
+span,p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left:40px;
+}
+/* second Card */
+#Atmcard{
+    height: 220px;
+    width: 400px;
+    margin: 0 80px;
+    border-radius: 8px;
+    background-color: rgb(218, 218, 235);
+    z-index: 1;
+    
+}
+#backcard{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    
+}
+#cvv{
+    height: 30px;
+    width: 70%;
+    background-color: #808080;
+    border: 8px;
+    margin: 50px;
+    color: white;
+    text-align: end;
+}
