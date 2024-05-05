@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a305ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header  */
+header>h1{
+    width: 13%;
+    margin: 40px 60px;
+    line-height: 50px;
+
+}
+hr{ 
+    border: 2px solid rgba(0, 0, 0, 0.189);
+}
+
+/*  Sction */
+section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+/* Box 1 */
+#box1{
+    height: 350px;
+    width: 400px;
+    border: 3px solid;
+border-radius: 25px 0 0 25px;
+    background-color: black;
+}
+article{
+    display: flex;
+    border: px solid;
+    border-radius: 10px;
+}
+#Cource{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.462);
+    margin: 30px 20px ;
+}
+#name{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.631);
+    font-weight: 500;
+    margin: 70px 20px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.303);
+    margin:  20px;
+}
+
+
+/* box 2 */
+
+#box2{
+    height: 350px;
+    width: 650px;
+    border: 3px solid white;
+    border-radius:0 25px 25px 0;
+
+    background-color: rgb(245, 242, 242);
+}
+#box2>p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 20px;
+}
+#js{
+    font-size: 40px;
+    margin: 70px 20px;
+    font-weight: 800;
+}
+button{
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.382);
+    background-color: black;
+    margin-left:45%;
+    font-size: 20px;
+}
+button:hover{
+    height: 62px;
+    width: 203px;
+    cursor: pointer;    
+        transition-delay: 1s;
+        transition-timing-function:  ease ;
+        transition: duration 10s; 
+        box-shadow: 5px 5px 5px 5px  rgba(40, 41, 43, 0.272); 
+}
